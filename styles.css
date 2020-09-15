@@ -4,16 +4,16 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #4b145b;
-  width: 100%;
+  position: relative;
+  display: flex;
   height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #4b145b;
   margin: auto;
 }
 .main {
-  margin: auto;
-  margin-top: 5%;
-  width: 80%;
-  height: 80%;
   background-color: white;
   display: flex;
   flex-direction: row;
@@ -21,22 +21,17 @@ body {
   border-radius: 15px;
 }
 .seccion {
-  width: 30%;
 }
 .preguntas {
   display: flex;
-  width: 69%;
   flex-direction: column;
 }
 .apartados {
-  width: auto;
-  height: 100%;
 }
 .caja {
-  width: 98%;
-  height: 15%;
   position: relative;
   display: flex;
+
   flex-direction: row;
   align-items: center;
   position: relative;
@@ -45,17 +40,26 @@ body {
   border-radius: 5px;
   margin: 3px;
 }
+.caja1 {
+  padding: 150;
+}
+#cookies {
+  font-size: 14px;
+}
 h2 {
   font-size: 20px;
 }
 p {
   font-size: 14px;
+  padding: 1spx;
 }
 
 button {
   position: absolute;
   right: 0;
-
-  padding: 5px;
+  padding: 10px;
   border-radius: 50%;
+  color: #b4345c;
+  border: none;
+  background-color: #eae6eb;
 }
